@@ -1,0 +1,265 @@
+*{
+    margin:0;
+    padding: 0; 
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    background: peachpuff;
+}
+header{
+    width: 100%; height: 100vh;
+     background-image: url('back1.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    width: 100%; height: 15vh;
+    background: rgba(0,0,0,0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;  
+}
+
+nav .logo{
+    width: 25%; 
+    text-align: center;
+    font-family: 'Cormorant Unicase',sans-serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: rgba(rgb(139, 80, 16));
+}
+.logo h2{
+    color: #774013;
+    font-style: oblique;
+}
+nav .menu{
+    width: 30%; 
+    display: flex; 
+    justify-content: space-around; 
+}
+
+nav .menu a{
+    width: 20%;
+    text-decoration: none; 
+    color: white;
+    font-weight: bold;
+}
+
+nav .menu a:hover{
+    background: rgb(109, 39, 39);
+    border-radius: 6px;
+    transition: 0.4s linear;
+}
+
+
+main{
+    width: 100%; height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;color: white;
+}
+
+.description{
+    padding: 60px 30px;
+    margin-top: 5px;
+    width: 700px;
+    position: absolute;
+    z-index: 999;  
+}
+.description h1{
+    font-size: 50px;
+    font-family: 'Cormorant Unicase',sans-serif;
+    font-weight: 800;
+    color: #5a4441;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.offer{
+    margin-left: 80px;
+    margin-top: 350px;
+    color: #C04000;
+    font-style: italic;
+    /* background-color: #f0d9d1; */
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    text-shadow: #f0d9d1;
+    /* border: 5px solid rgb(227, 246, 154); */
+    padding: 10px;
+    /* border-radius: 5px; */
+}
+.offer marquee{
+    text-align: center;
+}
+.about{
+   height: 100vh;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-top: 100px;
+}
+.bimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.border{
+    width: 300px;
+    height: 450px;
+    border: 2px solid #5a4441;
+    position: relative;
+}
+.bimage img{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+.btext{
+    padding-top: 150px;
+    padding-right: 50px;
+}
+.title{
+    padding-top: 50px;
+    font-family: 'Bitter';
+    font-weight: 100;
+    color: #5a4441;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.btext p{
+    font-size: 20px;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 500;
+    color: #444444;
+    text-align: center;
+}
+.product{
+    height: 100vh;
+    padding: 0 30px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 270px;
+    grid-gap: 20px;
+    padding-top: 50px;
+    margin-top: 10px;
+    
+}
+.product img{
+    height: 270px;
+    width: 230px;
+    margin-bottom: 15px;
+}
+.product p{
+    font-size: 18px;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 500;
+    color: #444444;
+}
+.product h3{
+    font-size: 22px;
+    font-family: 'Bitter';
+    font-weight: 600;
+    color: #5a4441;
+    
+}
+.gallery{
+    height: 100vh;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 270px;
+}
+.box{
+    background-image: url(l1.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor:pointer;
+    border: 2px solid #444444;
+    transition: transform .2s;
+}
+.box:nth-child(2){
+    background-image: url(p1.jpg);    
+}
+.box:nth-child(3){
+    background-image: url(s1.jpg);    
+}
+.box:nth-child(4){
+    background-image: url(2f.jpg);    
+}
+.box:nth-child(5){
+    background-image: url(eyemakeup.jpg);    
+}
+.box:nth-child(6){
+    background-image: url(b2.webp);    
+}
+.title2{
+    padding-top: 110px;
+    font-family: 'Bitter';
+    font-weight: 60;
+    color: #5a4441;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.container1 {
+    background-color:  peachpuff;
+    padding-top: 0%;
+    font-family: 'Cormorant Unicase',sans-serif;
+    
+}
+
+.signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: "Poppins",sans-serif;
+    color:  #444444;;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Cormorant Unicase',sans-serif;
+    color: #5a4441;
+    font-size: 45px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #b0752d;
+    color: #f2debc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #774013;
+}
